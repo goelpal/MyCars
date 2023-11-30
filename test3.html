@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My cars</title>
+    <link rel="stylesheet" href="test3.css">
+</head>
+<body>
+    <h1>My Cars</h1>
+    <table>
+        <tr>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="brand" value = "" placeholder="Brand"></td>
+            <td><input type="text" id="model" value = "" placeholder="Model"></td>
+            <td><input type="text" id="year" value = "" placeholder="Year"></td>
+            <td><button onclick="addCar(brand,model,year)">Add</button></td>
+        </tr>
+    </table>
+    <table id="carTable"></table>
+    <script src="test3.js"></script>
+</body>
+</html>
